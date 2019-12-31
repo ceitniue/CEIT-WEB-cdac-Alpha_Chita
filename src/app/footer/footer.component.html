@@ -1,0 +1,83 @@
+<!-- FOOTER -->
+<footer id="footer fixed-bottom" >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <ul class="banner-border" style="list-style-type:none;">
+      
+                <li *ngFor="let fooetLinks of links.govLink">
+                  <a href="https://{{fooetLinks.href}}" target="{{fooetLinks.target}}" rel="noopener noreferrer"
+                    title="{{fooetLinks.title}}">
+                    <img src="../assets/images/{{fooetLinks.imageSource}}" alt="{{fooetLinks.alernative}}" width="150">
+                  </a>
+                  <br>
+                  <br>
+                </li>
+              </ul>
+            </div>
+      
+            <div class="col-md-3 col-sm-6">
+              <div class="footer-info">
+                <div class="section-title">
+                  <h2>Headquarter</h2>
+                </div>
+                <address>
+                  <p>
+                    Centre of Excellence in Information Technology,<br> University of South Pacific,
+                    <br>Paliati Grounds, Niue High School, Alofi, Niue.<br>
+                    P.O.Box 31 Alofi,Niue Island.
+                  </p>
+                </address>
+      
+                <app-social></app-social>
+      
+                <div class="copyright-text">
+                  <p>Copyright &copy; 2019-2020 CEIT</p>
+      
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-3 col-sm-6">
+              <div class="footer-info">
+                <div class="section-title">
+                  <h2>Contact Info</h2>
+                </div>
+                <address>
+                  <span>
+                    <p>Telephome: +683-4049, +683-4356</p>
+                    <p>Fax: +683-4135</p>
+                  </span>
+                </address>
+      
+                <div class="footer_menu">
+                  <h2>Quick Links</h2>
+                  <ul>
+                      <li><a routerLink="/Courses">Courses</a></li>
+                      <li> <a routerLink="/About">About Us</a></li>
+                     
+                    </ul>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-3 col-sm-12">
+              <div class="footer-info newsletter-form">
+                <div class="section-title">
+                  <h2>Newsletter Signup</h2>
+                </div>
+                <div>
+                  <div class="form-group">
+                    <form action="#" method="get">
+                      <input type="email" class="form-control" placeholder="Enter your email" name="email" id="email"
+                        required="">
+                      <input type="submit" class="form-control" name="submit" id="form-submit" value="Send me">
+                    </form>
+                    <span><sup>*</sup> Please note - we do not spam your email.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>

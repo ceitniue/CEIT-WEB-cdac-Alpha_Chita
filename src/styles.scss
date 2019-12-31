@@ -1,0 +1,178 @@
+ 
+
+body {
+    background:whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+    height: 100%;
+ 
+  }
+
+
+ 
+   .nav-bar-center{
+      
+      padding-left: 6em;
+    font-size: 16px;
+    font-weight: bold;
+ 
+  }
+  .nav-bar-right{
+      padding-right: 10px;
+  }
+
+  html,
+body,
+.view {
+  height: 100vh;
+}
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100vh;
+}
+
+.carousel .carousel-inner {
+  height: 100vh;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+  height: 100vh;
+}
+
+img {
+  &.d-block {
+    height: 100vh;
+  }
+}
+
+
+
+ /*---------------------------------------
+     FOOTER              
+  -----------------------------------------*/
+
+  footer {
+    background: #252020;
+    padding: 120px 0;
+  }
+
+  footer .section-title {
+    padding-bottom: 10px;
+  }
+
+  footer h2 {
+    font-size: 20px;
+  }
+
+  footer a,
+  footer p {
+    color: #909090;
+  }
+
+  footer strong {
+    color: #d9d9d9;
+  }
+
+  footer address p {
+    margin-bottom: 0;
+  }
+
+  footer .social-icon {
+    margin-top: 25px;
+  }
+
+  .footer-info {
+    margin-right: 2em;
+  }
+
+  .footer-info h2 {
+    color: #ffffff;
+    padding: 0;
+  }
+
+  .footer_menu h2 {
+    margin-top: 2em;
+  }
+
+  .footer_menu ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer_menu li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px 10px 5px 0;
+  }
+
+  .newsletter-form .form-control {
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid #303030;
+    height: 50px;
+    margin: 5px 0;
+  }
+
+  .newsletter-form input[type="submit"] {
+    background: transparent;
+    border: 1px solid #f9f9f9;
+    border-radius: 50px;
+    color: #ffffff;
+    display: block;
+    margin-top: 20px;
+    outline: none;
+    width: 50%;
+  }
+
+  .newsletter-form input[type="submit"]:hover {
+    background: #29ca8e;
+    border-color: transparent;
+  }
+
+  .newsletter-form .form-group span {
+    color: #909090;
+    display: block;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+/*About CEIT Parapgraph*/
+
+  .about-ceit p{
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.feature-thumb {
+  border: 1px solid  #dde4e4;
+  padding: 1em 3em;
+}
+
+.feature-thumb span {
+  background: #3f51b5;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.feature-thumb h3 {
+  margin: 10px 0;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

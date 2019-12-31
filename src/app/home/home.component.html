@@ -1,0 +1,11 @@
+<ngb-carousel style="padding-top:70px;padding-bottom:70px; ">
+    <ng-template ngbSlide *ngFor="let source_img of sliderImage.images">
+        <div class="picsum-img-wrapper">
+            <img src="../assets/images/{{source_img.imageName}}" alt="{{source_img.alternative}}" width="100%">
+        </div>
+    </ng-template>
+</ngb-carousel>
+<app-home-note></app-home-note>
+<app-home-features></app-home-features>
+ 
+<app-home-courses></app-home-courses>
